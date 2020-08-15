@@ -1,0 +1,15 @@
+function series(prefixo, array)
+
+{
+
+   var newArray = []
+
+  for(var i =0; i < array.length; i ++){
+
+      newArray.push(prefixo+ ' ' +  array[i])
+
+  }
+
+   return  newArray
+
+}
